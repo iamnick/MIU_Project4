@@ -60,6 +60,8 @@ label.error {
 
 .ui-page {
 	background: #7EBBED;
+	color: #FFFFFF;
+	text-shadow: none;
 }
 
 #index {
