@@ -88,3 +88,7 @@ label.error {
 #moreInfo .ui-block-b {
 	text-align: right;
 }
+
+#selectMsg {
+	text-align: center;
+}

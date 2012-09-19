@@ -27,12 +27,12 @@
 				</div>
 				<div id="ctaActionLink">Click to View Details!</div>
 			</div>
-			<ul data-role="listview" data-theme="b">
-				<li><a href="#addItem" id="mmAddLink">Add A New Trip</a></li>
-				<li><a href="#browse" id="mmBrowseLink">Browse Trips by Category</a></li>
-				<li><a href="#search" id="mmSearchLink">Search All Trips</a></li>
-				<li><a href="#moreInfo" id="mmAboutLink">More Info</a></li>
-			</ul>
+			<div data-role="content">
+				<a href="#addItem" id="mmAddLink" data-role="button">Add A New Trip</a>
+				<a href="#browse" id="mmBrowseLink" data-role="button">Browse Trips by Category</a>
+				<a href="#search" id="mmSearchLink" data-role="button">Search All Trips</a>
+				<a href="#moreInfo" id="mmAboutLink" data-role="button">More Info</a>
+			</div>
 		</div>
 		
 		<div data-role="page" id="addItem" data-theme="b">
@@ -152,6 +152,9 @@
 					<div class="ui-block-e" id="Other">
 						<img src="img/other_icon.png" /><br /><span class="catLabel" id="catLabelOther">Other</span>
 					</div>
+				</div>
+				<div id="selectMsg">
+					<br /><b>Select a category above.</b>
 				</div>
 				<div data-role="listview" data-inset="true" id="browseTripList">
 					<!-- JavaScript inserts data here -->

@@ -35,10 +35,6 @@ $('#addItem').on('pageinit', function(){
 	
 });
 
-$('#browse').on('pageinit', function(){
-	getData(true);
-});
-
 $('#search').on('pageinit', function(){
 	getData(false);
 });
@@ -69,6 +65,7 @@ var getData = function(browsing){
 		$('#catLabelOther').css('textShadow', 'none');
 		spanToChange = document.getElementById("catLabel" + catFilter);
 		$(spanToChange).css('textShadow', '0 0 3px #F90');
+		document.getElementById('selectMsg').style.display = "none";
 		appendLocation.innerHTML = "";
 	} else {
 		var appendLocation = document.getElementById('searchTripList');
