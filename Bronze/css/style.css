@@ -57,3 +57,43 @@ label.error {
 	margin: 10px 0;
 	color: #cc0000;
 }
+
+.ui-page {
+	background: url("../img/bg.png");
+	background-repeat: repeat;
+	color: #FFFFFF;
+	text-shadow: none;
+}
+
+#index {
+	text-align: center;
+}
+
+.smallLogo {
+	width: 208px;
+	height: 40px;
+}
+
+#addItem .ui-block-b {
+	text-align: right;
+}
+
+#browse .ui-block-b {
+	text-align: right;
+}
+
+#catThumbnailGrid .ui-block-b {
+	text-align: center;
+}
+
+#search .ui-block-b {
+	text-align: right;
+}
+
+#moreInfo .ui-block-b {
+	text-align: right;
+}
+
+#selectMsg {
+	text-align: center;
+}

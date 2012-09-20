@@ -81,6 +81,10 @@ label.error {
 	text-align: right;
 }
 
+#catThumbnailGrid .ui-block-b {
+	text-align: center;
+}
+
 #search .ui-block-b {
 	text-align: right;
 }
