@@ -69,9 +69,10 @@ label.error {
 	text-align: center;
 }
 
-.smallLogo {
-	width: 208px;
-	height: 40px;
+.logoImg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #addItem .ui-block-b {
